@@ -1,19 +1,19 @@
 {
-  "name": "i18n-dts",
-  "version": "0.2.0",
-  "description": "A tiny d.ts file generator for react-native-i18n",
+  "name": "simple-i18n-dts",
+  "version": "0.3.0",
+  "author": "MegaCookie <mail@jessevandervelden.nl>",
+  "description": "A tiny and simple d.ts file generator for i18n-js json files",
   "bin": {
-    "i18n-dts": "build/bin/index.js"
+    "simple-i18n-dts": "build/bin/index.js"
   },
-  "repository": "https://github.com/quipper/i18n-dts",
-  "bugs": "https://github.com/quipper/i18n-dts/issues",
+  "repository": "https://github.com/MegaCookie/simple-i18n-dts",
+  "bugs": "https://github.com/MegaCookie/simple-i18n-dts/issues",
   "keywords": [
     "react-native",
     "typescript"
   ],
   "scripts": {
-    "tsc": "tsc",
-    "test": "jest"
+    "tsc": "tsc"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -31,27 +31,5 @@
     "ts-jest": "^23.10.5",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.12.0"
-  },
-  "jest": {
-    "testURL": "http://localhost/",
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(Test))\\.(jsx?|tsx?)$",
-    "testPathIgnorePatterns": [
-      "<rootDir>/build/",
-      "<rootDir>/node_modules/",
-      "<rootDir>/src/lib/__tests__/generated/",
-      "<rootDir>/src/lib/__tests__/expected/",
-      "<rootDir>/src/lib/__tests__/utils.ts"
-    ],
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
   }
 }
